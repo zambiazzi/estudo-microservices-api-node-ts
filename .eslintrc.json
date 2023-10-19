@@ -1,20 +1,24 @@
 {
-    "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "project": "./tsconfig.json",
-        "ecmaVersion": 2020,
-        "sourceType": "module"
-    },
-    "plugins": ["@typescript-eslint"],
-    "rules": {
-        "no-plusplus": 0,
-        "max-len": ["error", { "code": 120 }],
-        "comma-dangle": ["error", "always-multiline"],
-        "object-curly-spacing": ["error", "always"],
-        "quotes": ["error", "single"]
-    },
-    "env": {
-        "es2020": true
-    }
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "no-plusplus": 0,
+    "max-len": ["error", { "code": 120 }],
+    "comma-dangle": ["error", "always-multiline"],
+    "object-curly-spacing": ["error", "always"],
+    "quotes": ["error", "single"]
+  },
+  "env": {
+    "es2020": true
+  }
 }
